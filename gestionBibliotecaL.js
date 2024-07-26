@@ -39,9 +39,9 @@ class LibDigital extends Biblioteca {
             Formato: ${this.formato}`);
   }
 }
-let libro = new Biblioteca("A través de mi ventana", "Ariana Godoy", 1);
+let libro = new Biblioteca("A través de mi ventana", "Ariana Godoy", true);
 libro.prestarLibro();
-libro.devolverLibro(2);
+libro.devolverLibro();
 libro.mostrarEstado();
 
 let digital = new LibDigital(
